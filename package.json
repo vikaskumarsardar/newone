@@ -1,5 +1,6 @@
 {
   "name": "munoo",
+  "homepage": "https://vikaskumarsardar.github.io/newone",
   "version": "0.1.0",
   "private": true,
   "proxy" : "https://naya-hai.herokuapp.com/",
