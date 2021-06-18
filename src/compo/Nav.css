@@ -1,0 +1,71 @@
+nav {
+    display: flex;
+    background: rebeccapurple;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 10rem;
+
+
+}
+
+.Nav {
+    width: 100%;
+    background: powderblue;
+    color: white;
+}
+
+.logo {
+    position: relative;
+}
+
+.logo h1 {
+    font-weight: 300;
+    color: white;
+    position: relative;
+}
+
+.logo h1::before {
+    content: "Swapan k";
+    position: absolute;
+    color: yellow;
+    height: 100%;
+    text-align: left;
+    width: 100%;
+    left: 0;
+    right: 0;
+}
+
+.logo h1::after {
+    content: "kaan";
+    position: absolute;
+    color: white;
+    height: 100%;
+    width: 100%;
+    text-align: right;
+    left: 0;
+    right: 0;
+}
+
+.logo::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 40%;
+    height: 100%;
+    width: 100%;
+    background: rgba(255, 255, 0, 0.267);
+    clip-path: circle(40%);
+    filter: blur(.4rem);
+}
+
+ul li {
+    display: inline-block;
+    margin-left: 1.5rem;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+}

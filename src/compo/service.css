@@ -1,0 +1,32 @@
+input {
+    outline: none;
+    /* width: 160%; */
+    margin-top: .5rem;
+    padding: 0.5rem;
+    border-radius: 3rem;
+    font-weight: 600;
+    line-height: 0.5rem;
+    border: solid black 1px;
+}
+
+input[type='button'] {
+    color: white;
+    background: darkblue;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.Height {
+    background: white;
+    padding: 3rem 8rem;
+    border-radius: 1.1rem;
+    width: calc(15vw + 16%);
+}
+
+h2 {
+    position: relative;
+    /* background: yellow; */
+}

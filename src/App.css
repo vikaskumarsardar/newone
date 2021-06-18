@@ -1,0 +1,19 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Compo {
+  display: grid;
+  place-items: center;
+  background: powderblue;
+  min-height: 91.3vh;
+  position: relative;
+}
